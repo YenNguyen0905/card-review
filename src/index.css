@@ -1,13 +1,85 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chilanka", cursive;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  padding: 30px 30px;
+  background: #dbdbdb;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  color: #213e3b;
+  font-weight: 600;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  text-shadow: #ccafaf;
+  animation: example 6s infinite;
+}
+
+@keyframes example {
+  0% {
+    color: #213e3b;
+  }
+  50% {
+    color: #db6400;
+  }
+  100% {
+    color: #e6739f;
+  }
+}
+
+.content {
+  width: 85%;
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border: 5px solid #fff;
+  padding: 40px 20px 0 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 20px 10px;
+  box-shadow: 10px 10px 5px #ccafaf;
+  background: #ffcb74;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-size: cover;
+}
+.texting {
+  text-align: center;
+}
+.texting h3 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.description {
+  line-height: 1.5;
 }
