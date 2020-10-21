@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/YenNguyen0905/card-review.git/static/css/main.e60d83a7.chunk.css",
+    "main.js": "/YenNguyen0905/card-review.git/static/js/main.87dc63dc.chunk.js",
+    "main.js.map": "/YenNguyen0905/card-review.git/static/js/main.87dc63dc.chunk.js.map",
+    "runtime-main.js": "/YenNguyen0905/card-review.git/static/js/runtime-main.f028c33a.js",
+    "runtime-main.js.map": "/YenNguyen0905/card-review.git/static/js/runtime-main.f028c33a.js.map",
+    "static/js/2.d53214b7.chunk.js": "/YenNguyen0905/card-review.git/static/js/2.d53214b7.chunk.js",
+    "static/js/2.d53214b7.chunk.js.map": "/YenNguyen0905/card-review.git/static/js/2.d53214b7.chunk.js.map",
+    "index.html": "/YenNguyen0905/card-review.git/index.html",
+    "precache-manifest.d60a401ce4f80dd098f10b5cec7e18b5.js": "/YenNguyen0905/card-review.git/precache-manifest.d60a401ce4f80dd098f10b5cec7e18b5.js",
+    "service-worker.js": "/YenNguyen0905/card-review.git/service-worker.js",
+    "static/css/main.e60d83a7.chunk.css.map": "/YenNguyen0905/card-review.git/static/css/main.e60d83a7.chunk.css.map",
+    "static/js/2.d53214b7.chunk.js.LICENSE.txt": "/YenNguyen0905/card-review.git/static/js/2.d53214b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f028c33a.js",
+    "static/js/2.d53214b7.chunk.js",
+    "static/css/main.e60d83a7.chunk.css",
+    "static/js/main.87dc63dc.chunk.js"
+  ]
+}
